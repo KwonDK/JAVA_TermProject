@@ -114,5 +114,6 @@
 <h2 id="caution">Caution</h2>
 <ul>
 <li>MusicPlayer can play .wav file ONLY.</li>
+<li>MusicPlayer 프로그램은 웨이브 파일(.wav)만 재생할 수 있습니다.</li>
 </ul>
 

@@ -49,7 +49,6 @@
   	    add(panel);
   	    window.add(list,BorderLayout.PAGE_START);
   	    browser.setFileFilter(filter);
-
   	    window.setSize(400,200);
   	    window.setLocation(100, 100); //Set window size at runtime, 최초 실행시 설정할 창 크기 입니다.
   	    window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

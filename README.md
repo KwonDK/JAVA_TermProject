@@ -114,6 +114,7 @@
 <h2 id="caution">Caution</h2>
 <ul>
 <li>MusicPlayer can play .wav file ONLY.</li>
-<li>MusicPlayer 프로그램은 웨이브 파일(.wav)만 재생할 수 있습니다.</li>
+<li>MusicPlayer 프로그램은 웨이브 파일(.wav)만 재생할 수 있습니다.<br>
+<img src="https://user-images.githubusercontent.com/44791701/48842236-1ae88e00-edd7-11e8-84b2-a80bdca0f158.JPG" alt="openfile"></li>
 </ul>
 

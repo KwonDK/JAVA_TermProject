@@ -5,7 +5,7 @@
 
 <h1 id="java_term_project">JAVA_Term_Project</h1>
 <p>JAVA Term project(Simple Music Player)<br>
-<img src="https://user-images.githubusercontent.com/44791701/48841342-7feeb480-edd4-11e8-81a5-baf1ca53bd55.JPG" alt="1"></p>
+<img src="https://user-images.githubusercontent.com/44791701/48842533-df01f880-edd7-11e8-8ceb-62a7d517ab73.jpg" alt="1"></p>
 <h2 id="explanation">Explanation</h2>
 <p>Worked together to create a simple music player</p>
 <h2 id="main.java">Main.java</h2>

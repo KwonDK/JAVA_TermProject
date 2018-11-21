@@ -29,8 +29,8 @@
     stopButton.setSize(120,120);
     addButton.addActionListener(this);
     playButton.addActionListener(this);
-    stopButton.addActionListener(this); //Declare the buttons
-
+    stopButton.addActionListener(this); //Make a listener
+    
     JPanel  panel;
     panel =  new  JPanel();
     panel.setLayout(new  FlowLayout(FlowLayout.CENTER));
@@ -38,7 +38,7 @@
 	    window.add(info,BorderLayout.PAGE_END);
     panel.add(playButton);
     panel.add(stopButton);
-    panel.add(addButton);
+    panel.add(addButton); // Declare Buttons 
     add(panel);
     window.add(list,BorderLayout.PAGE_START);
     browser.setFileFilter(filter);

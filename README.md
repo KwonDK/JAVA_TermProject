@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="java_term_project">JAVA_Term_Project</h1>
 <p>JAVA Term project(Simple Music Player)<br>
 <img src="https://user-images.githubusercontent.com/44791701/48841342-7feeb480-edd4-11e8-81a5-baf1ca53bd55.JPG" alt="1"></p>

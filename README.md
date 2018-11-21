@@ -13,6 +13,9 @@
 <ul>
 <li>
 <p>The program run in the corresponding Java file</p>
+</li>
+<li>
+<p>Main.java 파일은 MusicPlayer.java 파일을 실행합니다.</p>
 <pre><code> public  static  void  main(String[] args) {
      MusicPlayer  mp  =  new  MusicPlayer();
  } // Call MusicPlayer.java
@@ -21,38 +24,43 @@
 </ul>
 <h2 id="musicplayer.java">MusicPlayer.java</h2>
 <p>Here is the code for the player to run.</p>
-<p><img src="https://user-images.githubusercontent.com/44791701/48841342-7feeb480-edd4-11e8-81a5-baf1ca53bd55.JPG" alt="1"></p>
-<pre><code>MusicPlayer()
-{
-    this.setBackground(Color.WHITE);
-    window.add(this);
-    addButton.setSize(500,500);
-    playButton.setSize(500,500);
-    stopButton.setSize(120,120);
-    addButton.addActionListener(this);
-    playButton.addActionListener(this);
-    stopButton.addActionListener(this); //Make a listener
-    
-    JPanel  panel;
-    panel =  new  JPanel();
-    panel.setLayout(new  FlowLayout(FlowLayout.CENTER));
-    info.setFont(new  Font("",Font.ITALIC,12));
-	    window.add(info,BorderLayout.PAGE_END);
-    panel.add(playButton);
-    panel.add(stopButton);
-    panel.add(addButton); // Declare Buttons 
-    add(panel);
-    window.add(list,BorderLayout.PAGE_START);
-    browser.setFileFilter(filter);
-
-    window.setSize(400,200);
-    window.setLocation(100, 100); //Set window size at runtime
-    window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    window.setVisible(true);
-} // Functions that make up the UI
-</code></pre>
 <ul>
-<li>Action Part</li>
+<li>
+<p>UI part<br>
+<img src="https://user-images.githubusercontent.com/44791701/48841342-7feeb480-edd4-11e8-81a5-baf1ca53bd55.JPG" alt="1"></p>
+<pre><code>  MusicPlayer()
+      {
+  	    this.setBackground(Color.WHITE);
+  	    window.add(this);
+  	    addButton.setSize(500,500);
+  	    playButton.setSize(500,500);
+  	    stopButton.setSize(120,120);	
+  	    addButton.addActionListener(this);
+  	    playButton.addActionListener(this);
+  	    stopButton.addActionListener(this); //Make a listener
+  
+  	    JPanel  panel;
+  	    panel =  new  JPanel();
+  	    panel.setLayout(new FlowLayout(FlowLayout.CENTER));
+  	    info.setFont(new  Font("",Font.ITALIC,12));
+  	    window.add(info,BorderLayout.PAGE_END);
+  	    panel.add(playButton);
+  	    panel.add(stopButton);
+  	    panel.add(addButton); // Declare Buttons 
+  	    add(panel);
+  	    window.add(list,BorderLayout.PAGE_START);
+  	    browser.setFileFilter(filter);
+
+  	    window.setSize(400,200);
+  	    window.setLocation(100, 100); //Set window size at runtime
+  	    window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  	    window.setVisible(true);
+      } // Functions that make up the UI
+</code></pre>
+</li>
+<li>
+<p>Action Part</p>
+</li>
 </ul>
 <ol>
 <li>

@@ -4,7 +4,8 @@
 ---
 
 <h1 id="java_term_project">JAVA_Term_Project</h1>
-<p>JAVA Term project(Simple Music Player)</p>
+<p>JAVA Term project(Simple Music Player)<br>
+<img src="https://user-images.githubusercontent.com/44791701/48841342-7feeb480-edd4-11e8-81a5-baf1ca53bd55.JPG" alt="1"></p>
 <h2 id="explanation">Explanation</h2>
 <p>Worked together to create a simple music player</p>
 <h2 id="main.java">Main.java</h2>
@@ -20,6 +21,7 @@
 </ul>
 <h2 id="musicplayer.java">MusicPlayer.java</h2>
 <p>Here is the code for the player to run.</p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48841342-7feeb480-edd4-11e8-81a5-baf1ca53bd55.JPG" alt="1"></p>
 <pre><code>MusicPlayer()
 {
     this.setBackground(Color.WHITE);
@@ -54,7 +56,8 @@
 </ul>
 <ol>
 <li>
-<p>Add file</p>
+<p>Add file<br>
+<img src="https://user-images.githubusercontent.com/44791701/48841387-a3196400-edd4-11e8-94e1-122bc32ccab5.JPG" alt="addmusic"></p>
 <pre><code> if(ae.getSource()==addButton) // press addbutton
  	{
  		returnValue =  browser.showOpenDialog(window); //Call search window
@@ -69,7 +72,8 @@
 </code></pre>
 </li>
 <li>
-<p>Play .wav files</p>
+<p>Play .wav files<br>
+<img src="https://user-images.githubusercontent.com/44791701/48841424-be846f00-edd4-11e8-8557-f20805a978ea.jpg" alt="list"></p>
 <pre><code> else  if(ae.getSource()==playButton) //press paybutton
  	{
  		try{
@@ -101,4 +105,8 @@
 </code></pre>
 </li>
 </ol>
+<h2 id="caution">Caution</h2>
+<ul>
+<li>MusicPlayer can play .wav file ONLY.</li>
+</ul>
 
